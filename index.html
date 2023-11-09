@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  #height: 100vh;
 }
 
 img {
@@ -15,10 +15,24 @@ img {
   max-height: 100%;
 }
   </style>
-  </head>
+ 
+<script>
+function combine(form) {
+form.q.value = form.q.value + " location:quebec" ;
+}
+</script>
+ </head>
   <body>
     <div class="logo">
-     <a href='https://www.google.ca/search?q=location%3Aquebec+soulier+brun'> <img src="logo.png" alt="Logo"><a/>
+     <a href='https://www.lapresse.ca/affaires/entreprises/2023-10-27/la-pertinence-du-panier-bleu-remise-en-question.php'> <img src="logo.png" alt="Logo"><a/>
     </div>
+    <div class="logo">
+     <form action="https://www.google.com/search" method="GET">
+	<br>
+         <input type="text" name="q" placeholder="Que voulez-vous acheter?" size="50"/>
+         <input type="submit" value="Search" onClick="combine(this.form);"/>
+     </form>
+    </div>
+
   </body>
 </html>
