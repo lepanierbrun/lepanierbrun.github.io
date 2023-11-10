@@ -17,7 +17,7 @@ img {
 }
 h1 { font-family: "Arial Narrow", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
   </style>
- 
+ <link rel="stylesheet" href="style.css">
 <script>
 function combine(form) {
 form.q.value = "\"" + form.q.value + "\" location:quebec" ;
@@ -59,6 +59,29 @@ form.q.value = "\"" + form.q.value + "\" location:quebec" ;
   </ul>
     </div>
 
+    <div class="chatbot-container">
+        <div id="header">
+            <h1>Robot de conversation relié à tous les ordinateur du monde</h1>
+        </div>
+        <div id="chatbot">
+            <div id="conversation">
+              <div class="chatbot-message">
+                <p class="chatbot-text">Bonjour! 👋 Il est bon de vous voir!</p>
+              </div>
+            </div>
+            <form id="input-form">
+              <message-container>
+                <input id="input-field" type="text" placeholder="Type your message here">
+                <button id="submit-button" type="submit">
+                  <img class="send-icon" src="send-message.png" alt="">
+                </button>
+              </message-container>
+                
+            </form>
+        </div>  
 
+    </div>
+
+    <script src="chatbot.js"></script>
   </body>
 </html>
