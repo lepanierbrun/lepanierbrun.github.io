@@ -5,6 +5,11 @@ body {
 }
 */
 
+.chatbot-container-container
+{
+  position: relative;
+}
+
 .chatbot-container {
     width: 500px;
     margin: 0 auto;
@@ -12,6 +17,8 @@ body {
     border: 1px solid #cccccc;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
   }
 
 #chatbot {
