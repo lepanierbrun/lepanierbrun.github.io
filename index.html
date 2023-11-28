@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" /> 
+<head>
+    <meta charset="utf-8" />
     <title>Le Panier Brun - Pas le panier que le Québec veut, mais le panier que nous méritons!</title>
-  <style>
+    <style>
 
-.logo {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  #height: 100vh !important;
+        .logo {
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+            #height: 100vh !important;
+        }
 
-}
+        .cart {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            max-width: 1200px;
+        }
 
-img {
-  max-width: 100% !important;
-  max-height: 100% !important;
-}
-h1 { font-family: "Arial Narrow", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
-  </style>
- <link rel="stylesheet" href="style.css">
-<script>
-function combine(form) {
-form.q.value = "\"" + form.q.value + "\" location:quebec" ;
-}
-</script>
-<meta name="description" content="lepanierbleu le vrai panier du quebec le panier brun lepanierbrun achat quebec amazon canada">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<meta name="og:title" property="og:title" content="Le Panier Brun - Pas le panier que le Québec veut, mais le panier que nous méritons!">
-<meta name="twitter:card" content="Le Panier Brun - Pas le panier que le Québec veut, mais le panier que nous méritons!">
-<meta property="og:image" content="logo.png">
- </head>
-  <body>
-    <div class="logo">
-	<img src="logo.png" alt="Logo">
+        img {
+            max-width: 100% !important;
+            max-height: 100% !important;
+        }
+        h1 { font-family: "Arial Narrow", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function combine(form) {
+            form.q.value = "\"" + form.q.value + "\" location:quebec" ;
+        }
+    </script>
+    <meta name="description" content="lepanierbleu le vrai panier du quebec le panier brun lepanierbrun achat quebec amazon canada">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="og:title" property="og:title" content="Le Panier Brun - Pas le panier que le Québec veut, mais le panier que nous méritons!">
+    <meta name="twitter:card" content="Le Panier Brun - Pas le panier que le Québec veut, mais le panier que nous méritons!">
+    <meta property="og:image" content="logo.png">
+</head>
+<body>
+<header>
+    <div class="cart">
+        <a href="/panier.html" title="Un processus d'achat inexistant"><img src="cart.png" ></a>
     </div>
-<br>
-    <div class="logo">
-<h1>Pas le panier que le Québec veut, mais le panier que nous méritons!</h1>
+</header>
+<div class="logo">
+    <img src="logo.png" alt="Logo">
 </div>
-    <div class="logo">
+<br>
+<div class="logo">
+    <h1>Pas le panier que le Québec veut, mais le panier que nous méritons!</h1>
+</div>
+<div class="logo">
 
-     <form action="https://www.google.com/search" method="GET">
-	<br>
-         <input type="text" name="q" placeholder="Que voulez-vous acheter?" size="50"/>
-         <input type="submit" value="Rechercher!" onClick="combine(this.form);"/>
-     </form>
-    </div>
+    <form action="https://www.google.com/search" method="GET">
+        <br>
+        <input type="text" name="q" placeholder="Que voulez-vous acheter?" size="50"/>
+        <input type="submit" value="Rechercher!" onClick="combine(this.form);"/>
+    </form>
+</div>
 <br><br>
-    <div class="logo">
-   <h1>La réalité:</h1> 
-   <ul>
-	<li><a href='https://www.lapresse.ca/affaires/2023-02-03/le-panier-bleu/les-ventes-se-font-toujours-attendre.php'>Les ventes se font toujours attendre</a></li>
-  	<li><a href='https://www.lapresse.ca/affaires/entreprises/2023-10-27/la-pertinence-du-panier-bleu-remise-en-question.php'>La pertinence du panier bleu remise en question</a></li>
-  	<li><a href='https://www.taxpayer.com/newsroom/legault-government-wasting-another-3.15-million-on-failed-web-version-of-the-yellow-pages'>Legault government wasting another $3.15 million on failed web version of the Yellow Pages</a></li>
-	<li><a href='https://www.lesaffaires.com/blogues/stephanie-kennan/le-panier-bleu-transactionnel-encore-une-fausse-bonne-idee-/622649'>Le Panier bleu transactionnel, encore une fausse bonne idée</a></li>
-	<li><a href='https://www.24heures.ca/2023/04/18/alex-champagne-se-moque-du-panier-bleu-qui-vend-des-pates-alimentaires-fabriquees-en-italie'>Alex Champagne se moque du Panier Bleu qui vend des pâtes alimentaires fabriquées en Italie</a></li>
-	<li><a href='https://stephane-hamel.medium.com/le-panier-perc%C3%A9-b0c829adbcc0'>Le Panier Percé - L’initiative Le Panier Bleu est un échec annoncé.</a></li>
-	<li><a href='https://www.journaldemontreal.com/2023/04/05/le-panier-bleu-loin-derriere-amazon-au-quebec-pour-les-ventes-en-ligne'>Le Panier Bleu loin derrière Amazon au Québec pour les ventes en ligne</a></li>
-  </ul>
-	<iframe width="420" height="315"src="https://www.youtube.com/embed/xgew--b-S7g"></iframe>
+<div class="logo">
+    <h1>La réalité:</h1>
+    <ul>
+        <li><a href='https://www.lapresse.ca/affaires/2023-02-03/le-panier-bleu/les-ventes-se-font-toujours-attendre.php'>Les ventes se font toujours attendre</a></li>
+        <li><a href='https://www.lapresse.ca/affaires/entreprises/2023-10-27/la-pertinence-du-panier-bleu-remise-en-question.php'>La pertinence du panier bleu remise en question</a></li>
+        <li><a href='https://www.taxpayer.com/newsroom/legault-government-wasting-another-3.15-million-on-failed-web-version-of-the-yellow-pages'>Legault government wasting another $3.15 million on failed web version of the Yellow Pages</a></li>
+        <li><a href='https://www.lesaffaires.com/blogues/stephanie-kennan/le-panier-bleu-transactionnel-encore-une-fausse-bonne-idee-/622649'>Le Panier bleu transactionnel, encore une fausse bonne idée</a></li>
+        <li><a href='https://www.24heures.ca/2023/04/18/alex-champagne-se-moque-du-panier-bleu-qui-vend-des-pates-alimentaires-fabriquees-en-italie'>Alex Champagne se moque du Panier Bleu qui vend des pâtes alimentaires fabriquées en Italie</a></li>
+        <li><a href='https://stephane-hamel.medium.com/le-panier-perc%C3%A9-b0c829adbcc0'>Le Panier Percé - L’initiative Le Panier Bleu est un échec annoncé.</a></li>
+        <li><a href='https://www.journaldemontreal.com/2023/04/05/le-panier-bleu-loin-derriere-amazon-au-quebec-pour-les-ventes-en-ligne'>Le Panier Bleu loin derrière Amazon au Québec pour les ventes en ligne</a></li>
+    </ul>
+    <iframe width="420" height="315"src="https://www.youtube.com/embed/xgew--b-S7g"></iframe>
 
-  </div>
-    <div class="chatbot-container">
-        <div id="header">
-            <h1>Le Robot Brun de conversation relié à tous les ordinateurs du monde</h1>
-        </div>
-        <div id="chatbot">
-            <div id="conversation">
-              <div class="chatbot-message">
+</div>
+<div class="chatbot-container">
+    <div id="header">
+        <h1>Le Robot Brun de conversation relié à tous les ordinateurs du monde</h1>
+    </div>
+    <div id="chatbot">
+        <div id="conversation">
+            <div class="chatbot-message">
                 <p class="chatbot-text">Bonjour! 👋 Il est bon de vous voir!</p>
-              </div>
             </div>
-            <form id="input-form">
-              <message-container>
+        </div>
+        <form id="input-form">
+            <message-container>
                 <input id="input-field" type="text" placeholder="Type your message here">
                 <button id="submit-button" type="submit">
-                  <img class="send-icon" src="send-message.png" alt="">
+                    <img class="send-icon" src="send-message.png" alt="">
                 </button>
-              </message-container>
-                
-            </form>
-        </div>  
+            </message-container>
 
+        </form>
     </div>
 
-    <script src="chatbot.js"></script>
-  </body>
+</div>
+
+<script src="chatbot.js"></script>
+</body>
 </html>
