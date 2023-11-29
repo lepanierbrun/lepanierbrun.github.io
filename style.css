@@ -161,3 +161,39 @@ body {
     background: #555; 
   }
   */
+
+
+/* PRODUCTS */
+.product-container{
+  max-width: 1200px;
+  align-items: center;
+
+  margin: 50px auto;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+.product-container h2 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+.quebec {
+
+  color:#013AA7;
+}
+
+.col-4 .col{
+  display: flex;
+  margin: 0 20px 0 0;
+  width:25%;
+}
+
+.col-4 .col:last-child{
+  margin: 0;
+
+}
